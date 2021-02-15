@@ -1,0 +1,12 @@
+<div class="converstation">
+  <h3><%= params[:question] %></h3>
+  <p>- you</p>
+</div>
+<div class="converstation">
+  <h3><%= @answer %></h3>
+  <p>- coach</p>
+</div>
+
+<div class="blue-link">
+  <%= link_to "Say something else", "/ask" %>
+</div>
